@@ -17,7 +17,7 @@ V = Cd ||X - Xs||^D
 P(Wk | X) = P(X | Wk) * P(Wk) / P(X)
 
 P(X) = S / (M * V)
-P(X | Wk) = Normal density function
+P(X | Wk) = Sk / (Mk * V) (Sk = number of points of class k in cluster of S points)
 P(Wk) = Mk / M
 
 
@@ -37,7 +37,7 @@ V = w^D (w size of the thing)
 P(Wk | X) = P(X | Wk) * P(Wk) / P(X)
 
 P(X) = S / (M * V)
-P(X | Wk) = mahalanobis
+P(X | Wk) = Sk / (Mk * V) (Sk = number of points of class k in cluster of S points)
 P(Wk) = Mk / M
 
 ### Question 3
